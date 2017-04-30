@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: UIDesignImages
+  m_Shader: {fileID: 4800000, guid: ea970db093863904fb6cf49ef2e57dff, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: a8a7241407674bd45bf79a8651b7ce2c, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _AlphaTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 0a638849eed91ac4c9551dc4ac70df0b, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MaskTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: 16
+      data:
+        first:
+          name: _LightmapIntensity
+        second: 1
+      data:
+        first:
+          name: _CutOffRange
+        second: 0.5
+      data:
+        first:
+          name: _SpecularIntensity
+        second: 1
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+      data:
+        first:
+          name: _MainColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _SpecularMaterialColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _ObjectDamageValue
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _CenterPos
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _Size
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _NdcToUI
+        second: {r: 0, g: 0, b: 0, a: 0}
