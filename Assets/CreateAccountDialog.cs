@@ -11,7 +11,7 @@ public class CreateAccountDialog : MonoBehaviour
 
 	public void OnClickButton(GameObject btn)
 	{
-		if (btn.name == "btnCreate") 
+		if (btn.name == "btnCreate")
 		{
 			NetWorkManager.Inst.Summit (id++, m_inputId.value, m_inputPw.value);
 		}
